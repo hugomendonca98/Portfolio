@@ -1,6 +1,6 @@
 import React from "react";
 
-import GlobalStyles from "./config/GlobalStyles";
+import GlobalStyles from "./global/GlobalStyles";
 import FixedNavBar from "./components/NavBar/NavBar";
 import Header from "./components/Header/Header";
 import WorkCard from "./components/WorksUi/WorksUi";
@@ -9,11 +9,11 @@ import Skills from "./components/skills/skills";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
-import easyBank from "./config/images/desktop-preview.jpg";
-import shortyUrl from "./config/images/desktop-preview-2.jpg";
-import socialMedia from "./config/images/desktop-preview-3.jpg";
-import luxuryRestaurant from "./config/images/desktop-preview-4.png";
-import felipeImportadoss from "./config/images/desktop-preview-5.png";
+import easyBank from "./assets/images/desktop-preview.jpg";
+import shortyUrl from "./assets/images/desktop-preview-2.jpg";
+import socialMedia from "./assets/images/desktop-preview-3.jpg";
+import luxuryRestaurant from "./assets/images/desktop-preview-4.png";
+import felipeImportadoss from "./assets/images/desktop-preview-5.png";
 
 function App() {
   return (
@@ -29,21 +29,22 @@ function App() {
           imgAlt="Easyban landing page - hugo mendonça dev frontend"
           externalLink="https://easy-bank-landingpage.netlify.app/"
           workImg={easyBank}
-          description="landing page de um banco virtual, um design moderno e totalmente responsivo se adaptando para todos tipos de tela."
+          description="landing page de um banco virtual, design moderno e totalmente responsivo se adaptando para todos tipos de tela. Feito usando react e styled components.
+          "
         />
         <WorkCardTwo
           title="Felipe Importados"
           imgAlt="Felipe Importadoss - hugo mendonça dev frontend"
           externalLink="https://felipeimportadoss.com"
           workImg={felipeImportadoss}
-          description="Site feito no wordpress com woocomerce e sistema de recebimento ultilizando o pagseguro."
+          description="Site e-commerce feito com wordpress e woocomerce, sistema de pagamentos usando o pagseguro."
         />
         <WorkCard
           title="luxury restaurant"
           imgAlt="Luxury Restaurant - hugo mendonça dev frontend"
           externalLink="https://luxury-restaurant-site.netlify.app/"
           workImg={luxuryRestaurant}
-          description="Site para restaurante completo, feito com html, css e javascript orientado a objeto, site com 7 páginas, entre eles formularios e mapas."
+          description="Site para restaurante, feito com html, css e javascript orientado a objeto, com 7 páginas, entre eles formulários e mapas."
         />
         <WorkCardTwo
           title="Encurtador de url"

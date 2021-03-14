@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
-import { primaryColor } from "../../config/colors";
-import BGCard from "../../config/images/bg-card-3.png";
+import { primaryColor } from "../../global/colors";
+import BGCard from "../../assets/images/bg-card-3.png";
 
 export const WorksStyled = styled.div`
   margin-top: 200px;

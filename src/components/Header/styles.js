@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { primaryColor, primaryDarkColor } from "../../config/colors";
+import { primaryColor, primaryDarkColor } from "../../global/colors";
 
 export const HeaderStyled = styled.header`
   canvas {

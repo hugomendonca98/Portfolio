@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import { Formik, Field, Form } from "formik";
 import * as Yup from "yup";
 
-import api from "../../config/api/apiForm";
+import api from "../../global/services/api/apiForm";
 import { ContactStyled } from "./styles";
-import contactImg from "../../config/images/contact.svg";
+import contactImg from "../../assets/images/contact.svg";
 
 const ContactSchema = Yup.object().shape({
   name: Yup.string()

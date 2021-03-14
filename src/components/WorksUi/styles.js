@@ -4,9 +4,9 @@ import {
   secundaryDarkColor,
   primaryColor,
   whiteColor,
-} from "../../config/colors";
+} from "../../global/colors";
 
-import cardBG from "../../config/images/bg-card-3.png";
+import cardBG from "../../assets/images/bg-card-3.png";
 
 export const WorksStyled = styled.div`
   background-image: url(${cardBG}) !important;

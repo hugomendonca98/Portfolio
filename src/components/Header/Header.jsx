@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 import ParticlesBk from "../particles/particles";
 import { HeaderStyled } from "./styles";
-import headerImg from "../../config/images/header-12.svg";
+import headerImg from "../../assets/images/header-12.svg";
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         <MDBContainer className="text-justify mt-5 pt-5">
           <div className="slide-top">
             <h3>{"Olá meu nome é Hugo Mendonça"}</h3>
-            <h1>Sou Desenvolvedor Front End</h1>
+            <h1>Sou Desenvolvedor Web Full Stack</h1>
             <Link
               to="portfolio"
               spy={true}

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { primaryColor } from "../../config/colors";
+import { primaryColor } from "../../global/colors";
 
 export const ContactStyled = styled.div`
   font-family: "Alata", sans-serif;
@@ -58,8 +58,9 @@ export const ContactStyled = styled.div`
     input[type="email"],
     input[name*="message"] {
       background-color: #2f2e41;
+      border: 2px solid #4e4d54;
+      border-radius: 2px;
       color: white;
-      border: none;
       width: 360px;
       padding: 10px;
       margin: 10px 10px;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { primaryColor, whiteColor } from "../../config/colors";
+import { primaryColor, whiteColor } from "../../global/colors";
 
 export const SkillsStyled = styled.div`
   font-family: "Alata", sans-serif;
@@ -23,12 +23,11 @@ export const SkillsStyled = styled.div`
 
   div.skills {
     div.thumb {
-      width: 200px;
-      /*border-radius: 50%;*/
+      width: 210px;
       margin: auto;
       img {
         width: 200px;
-        /*border-radius: 50%;*/
+        border-radius: 50% !important;
       }
     }
     h3 {
@@ -42,11 +41,14 @@ export const SkillsStyled = styled.div`
       color: ${primaryColor};
       a {
         text-decoration: none;
-        color: ${primaryColor};
+        color: ${whiteColor};
         i {
           margin: 10px;
           font-size: 30px;
         }
+      }
+      a:hover {
+        color: ${primaryColor};
       }
     }
     h4 {
@@ -63,6 +65,9 @@ export const SkillsStyled = styled.div`
       display: flex;
       justify-content: center;
       list-style: none;
+      max-width: 600px;
+      margin: auto;
+      flex-wrap: wrap;
       li {
         margin: 10px;
         text-align: center;

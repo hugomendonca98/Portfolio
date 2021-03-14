@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import "mdbreact/dist/css/mdb.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { NavBarStyled } from "./Styles";
-import { bgDarkCustom, whiteColor } from "../../config/colors";
+import { bgDarkCustom, whiteColor } from "../../global/colors";
 import {
   MDBNavbar,
   MDBNavbarBrand,
@@ -126,7 +126,7 @@ class FixedNavbar extends React.Component {
                     textAlign: "center",
                     marginTop: "10px",
                   }}
-                  href="https://www.linkedin.com/in/hugo-costa-597760177/"
+                  href="https://www.linkedin.com/in/hugo-mendonça-frontend/"
                 >
                   <MDBIcon fab icon="linkedin-in" /> Linkedin
                 </a>
